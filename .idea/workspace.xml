@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="851bb3c5-b0e9-4258-825d-bcf5d054734d" name="Changes" comment="1">
-      <change beforePath="$PROJECT_DIR$/all_stopwords.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lianjia/spiders/spyder.py" beforeDir="false" afterPath="$PROJECT_DIR$/lianjia/spiders/spyder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lianjia/草稿纸.py" beforeDir="false" afterPath="$PROJECT_DIR$/lianjia/草稿纸.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据处理.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据处理.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/解析json2csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/解析json2csv.py" afterDir="false" />
+    <list default="true" id="851bb3c5-b0e9-4258-825d-bcf5d054734d" name="Changes" comment="lz down">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +45,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lianjia" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.草稿纸">
     <configuration name="数据处理" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lianjia_scrapy" />
@@ -179,7 +180,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672349453644</updated>
       <workItem from="1672349456316" duration="3229000" />
-      <workItem from="1672352696851" duration="20423000" />
+      <workItem from="1672352696851" duration="20587000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1672414496030</created>
@@ -188,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672414496030</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lz down">
+      <created>1672417452101</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672417452101</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +204,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="lz down" />
+    <option name="LAST_COMMIT_MESSAGE" value="lz down" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lianjia_scrapy$items.coverage" NAME="items Coverage Results" MODIFIED="1672349487817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianjia" />

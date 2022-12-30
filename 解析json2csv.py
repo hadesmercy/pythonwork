@@ -6,8 +6,6 @@
 @time:2022/01/26
 """
 import pandas
-from pandas.io.json import json_normalize
-import pandas as pd
 import json
 
 
