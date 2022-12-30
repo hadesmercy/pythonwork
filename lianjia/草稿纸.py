@@ -6,7 +6,22 @@
 @file:草稿纸.py
 @time:2022/01/25
 """
-import time
+import pandas as pd
 
-a = "\n                --\n        \n        53.00㎡\n        南        \n          1室1厅1卫        \n      "
-print(a)
+df = pd.read_csv("ttt.csv")
+print(len(df))
+df = df.dropna()
+print(len(df))
+
+
+
+# print(df.info())
+# print(df['location1'].value_counts())
+
+
+
+# print(len(df))
+df.drop_duplicates(subset=['title'], keep='first', inplace=True)
+print(len(df))
+
+df.to_csv("A1ttt.csv")

@@ -5,11 +5,11 @@ from lianjia.items import LianjiaItem
 import random
 
 
-class LianjiaSpider(scrapy.Spider):  # 必须继承scrapy.Spider
-
-    name = "lianjia"  # 名称
+class LianjiaSpider(scrapy.Spider):
+    #这个是用来根据不同的城市单独处理的爬虫，仅仅适用于单独的区域
+  # 名称
     custom_settings = {
-        'ITEM_PIPELINES': {'lianjia.pipelines.LianjiaPipeline': 300,},
+        'ITEM_PIPELINES': {'anotherlianjia.pipelines.LianjiaPipeline': 300, },
     }
     start_urls = ['https://lz.lianjia.com/zufang']  # URL列表
 
@@ -36,18 +36,6 @@ class LianjiaSpider(scrapy.Spider):  # 必须继承scrapy.Spider
                     aa = ''. join(a)
                     f.write(aa + '\n')
                 print("该区域租房信息大于3000，需要额外处理")
-                #在这里使用户型和朝向的组合进行划分
-
-                typechose = ['l0','l1','l3','l4']
-                for j in range(1,8):
-                    for s in typechose:
-                        house_nums = int(
-                            response.css('#content > div.content__article > p > span.content__title--hl::text').get())
-                        page_num = min(house_nums // 30 + 1, 100) # 每页展示30条
-                        for i in range(1, page_num + 1):
-                            url = response.url + s +'pg{}'.format(i) + "rp{}".format(j)
-                            print(url)
-                            yield Request(url, callback=self.parse_overview)
         else:
             page_num = min(house_num // 30 + 1, 100)  # 每页展示30条
             for i in range(1, page_num + 1):

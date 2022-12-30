@@ -28,4 +28,4 @@ def paring(infile_name,outfile_name):
 
 
 if __name__ == '__main__':
-    paring('lianjia.json','lianjia.csv')
+    paring('lianjia.json','lianjia_lz.csv')
