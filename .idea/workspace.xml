@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="851bb3c5-b0e9-4258-825d-bcf5d054734d" name="Changes" comment="1">
-      <change beforePath="$PROJECT_DIR$/all_stopwords.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lianjia/spiders/spyder.py" beforeDir="false" afterPath="$PROJECT_DIR$/lianjia/spiders/spyder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lianjia/草稿纸.py" beforeDir="false" afterPath="$PROJECT_DIR$/lianjia/草稿纸.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据处理.py" beforeDir="false" afterPath="$PROJECT_DIR$/数据处理.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/解析json2csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/解析json2csv.py" afterDir="false" />
-    </list>
+    <list default="true" id="851bb3c5-b0e9-4258-825d-bcf5d054734d" name="Changes" comment="1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +43,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.草稿纸">
+  <component name="RunManager" selected="Python.go">
     <configuration name="数据处理" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lianjia_scrapy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -162,7 +156,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.草稿纸" />
         <item itemvalue="Python.数据处理" />
         <item itemvalue="Python.解析json2csv" />
         <item itemvalue="Python.go" />
@@ -180,6 +173,7 @@
       <updated>1672349453644</updated>
       <workItem from="1672349456316" duration="3229000" />
       <workItem from="1672352696851" duration="20423000" />
+      <workItem from="1672417841954" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1672414496030</created>
