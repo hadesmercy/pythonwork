@@ -5,6 +5,7 @@
 @file:解析json2csv.py
 @time:2022/01/26
 """
+import pandas
 from pandas.io.json import json_normalize
 import pandas as pd
 import json
@@ -17,9 +18,11 @@ def paring(infile_name,outfile_name):
     for key_ in res:
         # print(key_)
         json_data = json.loads(key_)
+        #print(json_data)
         data.append(json_data)
+        #print(data)
     # print(data)
-    df = json_normalize(data)
+    df = pandas.json_normalize(data)
     df.to_csv(outfile_name)
     print('done')
 

@@ -8,15 +8,5 @@
 """
 import time
 
-a = 1
-try:
-    if a :
-        print(a+2)
-except:
-    print('b')
-    time.sleep(1)
-print('done')
-
-if __name__ == '__main__':
-    pass
-
+a = "\n                --\n        \n        53.00㎡\n        南        \n          1室1厅1卫        \n      "
+print(a)
